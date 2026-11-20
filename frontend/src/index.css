@@ -1,0 +1,60 @@
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global settings */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #172033;
+  line-height: 1.6;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make form elements inherit the website font */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Improve button interaction */
+button {
+  cursor: pointer;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove default list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Text selection */
+::selection {
+  background-color: #c7d2fe;
+  color: #172554;
+}
